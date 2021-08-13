@@ -1,0 +1,498 @@
+@media (max-width: 768px) {
+    /* *{
+        overflow: hidden;
+    } */
+    body>div{
+        overflow-x: hidden;
+    }
+    body {
+        width: 100%;
+    }
+    .hr1 {
+        position: absolute;
+        left: -70px;
+        top: 195px;
+    }
+    header img {
+        width: 122px;
+        margin: 10px;
+    }
+    #hamburger {
+        margin: 0px 10px 10px 10px;
+    }
+    h1 {
+        font-size: 40px;
+        margin-left: -10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    h3 {
+        font-size: 15px;
+        margin-left: -10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .btn1 {
+        margin-left: -10px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 30px;
+    }
+    #icon {
+        margin-right: 100px;
+        margin-bottom: 20px;
+    }
+    #icon a {
+        font-size: 12px;
+    }
+    #main1 {
+        display: block;
+        width: 100%;
+        background-color: black;
+        height: 100%;
+
+        padding: 0px;
+
+    }
+    #main1 img {
+        object-fit: cover;
+        width: 270px;
+        height: 230px;
+margin-left: 15px;
+
+    }
+    .yazi1 {
+        padding: 0px 10px;
+        margin: 5px auto;
+    }
+    .yazi1 .p1{
+        font-size: 12px;
+        margin: 0px;
+    }
+    .hr2 {
+        width: 40px;
+        height: 3px;
+        background-color: #ff0e2ade;
+        border: none;
+    }
+   .yazi1 h2 {
+margin: 0px;
+        color: white;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    h5 {
+        color: #ff0e2ade;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .p1 {
+        color: whitesmoke;
+        width: 300px;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+    }
+    #main2 {
+        width: 100%;
+    }
+    .yazi2 {
+        display: block;
+    }
+    .text1 {
+        margin-left: -40px;
+    }
+    h4 {
+        color: white;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .text1 p {
+        color: white;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #main3 {
+        background-color: #292b2c;
+        width: 100%;
+    }
+    .basliq {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .basliq1 h2 {
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .basliq1 p {
+        color: #ff0e2ade;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .card {
+        width: 100%;
+        border: none;
+        margin: 10px 0;
+        border-radius: 20px;
+        background: black;
+        /* margin-left: -140px; */
+    }
+    .basliq1 {
+        margin-left: 0px;
+    }
+    .card:hover {
+        background-color: red;
+        cursor: pointer;
+    }
+    .card i {
+        color: white;
+        font-size: 60px;
+        padding: 5;
+    }
+    h6 {
+        color: white;
+        font-size: 25px;
+        margin-top: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .card p {
+        color: white;
+        font-size: 16px;
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #count {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .div {
+        width: 100%;
+        text-align: center;
+    }
+    .counter {
+        font-size: 30px;
+    }
+    .h3etiketi {
+        font-size: 10px;
+    }
+    #testimonials {
+        width: 100%;
+        background: black;
+        padding: 0px;
+    }
+    .testimonialsclass {
+        width: 100%;
+        margin-left: 15px;
+        padding: 10px 0px;
+    }
+    .hr98 {
+        width: 40px;
+        height: 3px;
+    }
+    .testimonialsclass .h1etiketi {
+        color: white;
+        font-size: 30px;
+    }
+    .testimonialsclass .test {
+        color: #ff0e2ade;
+        font-size: 14px;
+    }
+    .testimonials{
+        padding: 0px;
+    }
+    .mehemmed{
+        padding: 0px;
+    }
+    .owl-nav{
+        margin: 0px;
+        padding: 0px;
+    }
+    .melumat {
+        width: 100%;
+        display: block;
+        margin: 5px 0px;
+    }
+    .insanmelumat {
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        height: 340px;
+        margin: 10px auto;
+    }
+    .insanmelumat img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50px;
+        object-fit: cover;
+        background-position: center;
+    }
+    .adamh1 {
+        font-size: 18px;
+    }
+    .adamh4 {
+        font-size: 13px;
+    }
+    .adamp {
+        text-align: center;
+        color: white;
+        font-size: 13px;
+    }
+    #ourportfolio {
+        width: 100%;
+    }
+    #port {
+        width: 100%;
+        display: block;
+        align-items: center;
+    }
+    .port {
+        margin-left: 30px;
+    }
+    .port .hr97 {
+        width: 40px;
+        height: 3px;
+        background-color: #ff0e2ade;
+        border: none;
+    }
+    .port .h1etiketi {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .port .h4etiketi {
+        margin-top: 5px;
+        font-size: 15px;
+        color: #ff0e2ade;
+    }
+    #port ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    #port ul li a {
+        font-size: 18px;
+        cursor: pointer;
+    }
+    #alti {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video {
+        position: relative;
+    }
+    .video iframe {
+        width: 278px;
+        height: 203px;
+    }
+    .video i {
+        font-size: 33px;
+        position: absolute;
+        color: white;
+    }
+    .video img {
+        width: 100%;
+        height: 203px;
+    }
+    #news {
+        background-image: url(/images/bg-image.jpg) center/cover;
+        height: 60vh;
+        width: 100%;
+        padding: 10px;
+        background-attachment: fixed;
+        z-index: 0;
+    }
+    .news {
+        width: 100%;
+        z-index: 1;
+        padding: 30px 0px;
+    }
+    .news .hr9 {
+        width: 40px;
+        height: 3px;
+    }
+    .news .h1etiketi1 {
+        font-size: 35px;
+        color: black;
+        font-weight: 900;
+        margin: auto;
+        text-align: center;
+    }
+    .news .h4etiketi1 {
+        font-size: 17px;
+        color: #ff0e2ade;
+        text-align: center;
+    }
+    .news .p9 {
+        font-size: 13px;
+        text-align: center;
+        color: blue;
+        margin-top: 30px;
+    }
+    .news .email {
+        display: block;
+        width: 260px;
+        height: 62px;
+        margin: 5px auto;
+    }
+    .news .but {
+        display: block;
+        margin: 20px auto;
+        width: 153px;
+        height: 48px;
+    }
+    #ournews {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    #ucdene {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .ucdene {
+        width: 290px;
+        height: 380px;
+        margin: 10px auto;
+    }
+    .ucdene1 {
+        width: 290px;
+        height: 380px;
+        margin: 10px auto;
+    }
+    .ucdene2 {
+        width: 290px;
+        height: 380px;
+        margin: 10px auto;
+    }
+    #contact {
+        width: 100%;
+        overflow: hidden;
+    }
+    .contact {
+        width: 100%;
+        margin: 0px;
+    }
+    .basliqcontact {
+        padding: 0px;
+    }
+    .contact h1 {
+        font-size: 40px;
+        margin: 0px;
+    }
+    .contact h2 {
+        font-size: 18px;
+    }
+    .birdivdi {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        padding: 0px;
+    }
+    iframe {
+        width: 90%;
+        margin-left: 15px;
+    }
+    .birdivdi .left {
+        width: 100%;
+        display: block;
+    }
+    .basliqcontact {
+        margin-left: 4px;
+        padding: 10px 0px;
+    }
+    .birdivdi .right {
+        width: 100%;
+        display: block;
+    }
+    .yuxariinput {
+        display: block;
+    }
+    .inputlar {
+        width: 100%;
+        height: 47px;
+        border: none;
+        padding: 0px;
+    }
+    .asagiinput {
+        display: block;
+        margin: 0px auto;
+        padding: 0px;
+        outline: none;
+    }
+    .asagiinput p {
+        margin-top: 10px;
+        font-size: 15px;
+        color: white;
+    }
+    .asagiinput .asagi1 {
+        width: 100%;
+        height: 100px;
+        outline: none;
+        margin: 0px;
+    }
+    .asagiinput .contact {
+        width: 150px;
+        height: 48px;
+        margin-left: 20px;
+        margin: 10px;
+    }
+    .left {
+        width: 100%;
+        display: block;
+        padding: 0px;
+        margin-left: 10px;
+    }
+    .left i {
+        color: white;
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .left a {
+        display: block;
+        list-style: none;
+        color: white;
+        margin-top: 5px;
+    }
+    .left span {
+        display: block;
+        color: white;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .left .nomre {
+        color: white;
+    }
+    .left p {
+        color: white;
+        font-size: 15px;
+    }
+    .auehuseyn {
+        display: none;
+        overflow: hidden;
+    }
+    textarea {
+        width: 90%;
+    }
+    .asagiinput textarea {
+        width: 90%;
+        height: 100px;
+        margin: 0px 0px 0px 10px;
+    }
+    footer {
+        display: block;  
+           
+    }
+    #footer {
+        display: block;
+        margin: 0px auto;
+   
+    }
+    .footer{
+        padding: 5px 0px;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        padding: 5px 0px;
+    }
+}
